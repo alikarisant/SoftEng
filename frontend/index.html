@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<head>
+	<title> IntelliQ </title>
+	<meta charset="utf-8">
+
+
+	<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+ch {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+table {
+  text-align: center;
+  position: relative;
+  width: 100%
+}
+
+th {
+  background: white;
+  position: sticky;
+  top: 0;
+}
+
+#managerTable {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+h1 {text-align: center; font-style:'Georgia'; font-size:16px}
+p {text-align: justify; text-justify: inter-word; font-size:14px}
+</style>
+
+</head>
+
+<html>
+<body>
+
+<h1>Καλωσήρθατε στο IntelliQ</h1>
+<p>Επιλέξτε κάποιο ερωτηματολόγιο να απαντήσετε:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>ID</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Placeholder for table rows -->
+    <%= tableRows %>
+  </tbody>
+</table>
+
+
+</body>
+</html>
