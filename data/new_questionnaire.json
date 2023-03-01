@@ -1,0 +1,191 @@
+
+{
+    "questionnaireID": "QQ001",
+    "questionnaireTitle": "Testing questionnaire",
+    "keywords": [
+        "languages",
+        "foreign",
+        "travel"
+    ],
+    "questions": [
+        {
+            "qID": "P10",
+            "qtext": "Ποιο είναι το mail σας;",
+            "required": "FALSE",
+            "type": "profile",
+            "options": [
+                {
+                    "optID": "P10TXT",
+                    "opttxt": "<open string>",
+                    "nextqID": "P11"
+                }
+            ]
+        },
+        {
+            "qID": "P11",
+            "qtext": "Ποια είναι η ηλικία σας;",
+            "required": "TRUE",
+            "type": "profile",
+            "options": [
+                {
+                    "optID": "P11A1",
+                    "opttxt": "<18",
+                    "nextqID": "Q11"
+                },
+                {    
+                    "optID": "P11A2",
+                    "opttxt": "18-40",
+                    "nextqID": "Q11"
+                },
+                {
+                    "optID": "P11A3",
+                    "opttxt": ">40",
+                    "nextqID": "Q11"
+                }
+            ]
+        },
+        {
+            "qID": "Q11",
+            "qtext": "Πόσες ξένες γλώσσες μιλάτε;",
+            "required": "TRUE",
+            "type": "question",
+            "options": [
+                {
+                    "optID": "Q11A1",
+                    "opttxt": "0",
+                    "nextqID": "Q13"
+                },
+                {
+                    "optID": "Q11A2",
+                    "opttxt": "1",
+                    "nextqID": "Q12"
+                },
+                {
+                    "optID": "Q11A3",
+                    "opttxt": "Παραπάνω",
+                    "nextqID": "Q12"
+                }
+
+            ]
+        },
+        {
+            "qID": "Q12",
+            "qtext": "Πως μάθατε να μιλάτε αυτές τις γλώσσες;",
+            "required": "TRUE",
+            "type": "question",
+            "options": [
+                {
+                    "optID": "Q12A1",
+                    "opttxt": "σχολείο",
+                    "nextqID": "Q13"
+                },
+                {
+                    "optID": "Q12A2",
+                    "opttxt": "φίλοι",
+                    "nextqID": "Q13"
+                },
+                {
+                    "optID": "Q12A3",
+                    "opttxt": "διαδίκτυο",
+                    "nextqID": "Q13"
+                },
+                {
+                    "optID": "Q12A4",
+                    "opttxt": "Άλλο",
+                    "nextqID": "Q13"
+                }
+            ]
+        },
+        {
+            "qID": "Q13",
+            "qtext": "Θα θέλατε να μάθετε άλλες γλώσσες;",
+            "required": "TRUE",
+            "type": "question",
+            "options": [
+                {
+                    "optID": "Q13A1",
+                    "opttxt": "Ναι",
+                    "nextqID": "Q15"
+                },
+                {
+                    "optID": "Q13A2",
+                    "opttxt": "Όχι",
+                    "nextqID": "Q14"
+                }
+            ]
+        },
+        {
+            "qID": "Q14",
+            "qtext": "Συμφωνείτε με την εκμάθηση ξένων γλωσσών από μικρή ηλικία;",
+            "required": "TRUE",
+            "type": "question",
+            "options": [
+                {
+                    "optID": "Q14A1",
+                    "opttxt": "Ναι",
+                    "nextqID": "Q17"
+                },
+                {
+                    "optID": "Q14A2",
+                    "opttxt": "Οχι",
+                    "nextqID": "Q17"
+                }
+            ]
+        },
+        {
+            "qID": "Q15",
+            "qtext": "Θα θέλατε να ταξιδέψετε στις χώρες που μιλάνε αυτές τις γλώσσες;",
+            "required": "TRUE",
+            "type": "question",
+            "options": [
+                {
+                    "optID": "Q15A1",
+                    "opttxt": "Ναι",
+                    "nextqID": "Q16"
+                },
+                {
+                    "optID": "Q15A2",
+                    "opttxt": "Οχι",
+                    "nextqID": "Q16"
+                }
+            ]
+        },
+        {
+            "qID": "Q16",
+            "qtext": "Γνωρίζετε άλλα άτομα που μιλάνε αυτές τις γλώσσες;",
+            "required": "TRUE",
+            "type": "question",
+            "options": [
+                {
+                    "optID": "Q16A1",
+                    "opttxt": "Ναι",
+                    "nextqID": "Q14"
+                },
+                {
+                    "optID": "Q16A2",
+                    "opttxt": "Οχι",
+                    "nextqID": "Q14"
+                }
+            ]
+        },
+        {
+            "qID": "Q17",
+            "qtext": "Πιστεύτε οτι η εκμάθηση ξένων γλωσσών είναι είτιο διάβρωσης της ελληνικής γλώσσας;",
+            "required": "TRUE",
+            "type": "question",
+            "options": [
+                {
+                    "optID": "Q17A1",
+                    "opttxt": "Ναι",
+                    "nextqID": "-"
+                },
+                {
+                    "optID": "Q17A2",
+                    "opttxt": "Οχι",
+                    "nextqID": "-"
+                }
+            ]
+        }
+
+    ]
+}

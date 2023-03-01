@@ -1,0 +1,274 @@
+{
+	"id": "5eab59ed-2cf2-4ee3-963f-4de36cfe21ec",
+	"name": "intelliQ",
+	"timestamp": "2023-02-15T14:33:04.742Z",
+	"collection_id": "25702852-c04c778e-25a5-4fd5-94c8-d8cdac52c766",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 11,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-02-15T14:33:03.074Z",
+	"totalFail": 6,
+	"results": [
+		{
+			"id": "d84ec969-7c86-46a5-999f-1588803fd95b",
+			"name": "http://localhost:9103/intelliq_api/",
+			"url": "http://localhost:9103/intelliq_api/",
+			"time": 119,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				119
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "15785aeb-5363-4c60-b279-e6ada5d5bb0c",
+			"name": "/admin/healthcheck",
+			"url": "http://localhost:9103/intelliq_api/admin/healthcheck",
+			"time": 232,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				232
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": false
+				}
+			]
+		},
+		{
+			"id": "834db6cd-5050-471f-b904-bb2b1eb599f2",
+			"name": "/admin/questionnaire_upd",
+			"url": "http://localhost:9103/intelliq_api/admin/questionnaire_upd",
+			"time": 42,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Successful POST request": false,
+				"The response has all properties": false,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"The response has all properties": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				42
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Successful POST request": false,
+					"The response has all properties": false,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "40faba8b-650a-4c24-bdff-dbe41302f9d3",
+			"name": "/questionnaire/1?format",
+			"url": "http://localhost:9103/intelliq_api/questionnaire/1?format",
+			"time": 30,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response property matches environment variable": false,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response property matches environment variable": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				30
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response property matches environment variable": false,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "25325681-d5aa-4217-ade0-bdece730c23b",
+			"name": "/question/1/3?format=json",
+			"url": "http://localhost:9103/intelliq_api/question/1/3?format=json",
+			"time": 18,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response property matches environment variable": false,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response property matches environment variable": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				18
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response property matches environment variable": false,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "2cb27f38-633a-4686-8f44-ebea1f028401",
+			"name": "/getsessionanswers/1/3?format=json",
+			"url": "http://localhost:9103/intelliq_api/getsessionanswers/1/3?format=json",
+			"time": 18,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response property matches environment variable": false,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response property matches environment variable": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				18
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response property matches environment variable": false,
+					"Response time is less than 200ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 459,
+	"collection": {
+		"requests": [
+			{
+				"id": "d84ec969-7c86-46a5-999f-1588803fd95b",
+				"method": "GET"
+			},
+			{
+				"id": "15785aeb-5363-4c60-b279-e6ada5d5bb0c",
+				"method": "GET"
+			},
+			{
+				"id": "834db6cd-5050-471f-b904-bb2b1eb599f2",
+				"method": "POST"
+			},
+			{
+				"id": "40faba8b-650a-4c24-bdff-dbe41302f9d3",
+				"method": "GET"
+			},
+			{
+				"id": "25325681-d5aa-4217-ade0-bdece730c23b",
+				"method": "GET"
+			},
+			{
+				"id": "2cb27f38-633a-4686-8f44-ebea1f028401",
+				"method": "GET"
+			}
+		]
+	}
+}
